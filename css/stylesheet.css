@@ -3,6 +3,13 @@ background-image: url("../src/bg.png"), url("../src/phoenixmic.png");
 background-repeat: repeat, no-repeat;
 background-size: 75px 75px, auto;
 background-position: top left, bottom right;
+font-family: Helvetica, sans-serif;
+}
+
+table, th, td {
+border:1px solid white;
+color: #fff;
+width: 90%
 }
 
 #imgside img {
@@ -69,7 +76,6 @@ opacity: 0;
 
 p, h1, ul, h3 {
 color: white;
-font-family: Helvetica, sans-serif;
 margin-left: 2%;
 margin-right: 2%;
 overflow-wrap: anywhere;
